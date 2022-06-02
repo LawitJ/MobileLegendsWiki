@@ -1,0 +1,173 @@
+/** {
+  border: solid red;
+}*/
+body{ 
+  font-family: Verdana;
+  color: cyan;
+  background: rgb(100,232,227);
+  background: linear-gradient(360deg, rgba(100,232,227,1) 0%, rgba(107,255,207,1) 100%);
+}
+
+.inline {
+  position: absolute;
+  right: 14px;
+  top: 7px;
+}
+
+.heroOfTheDay {
+  display: block;
+}
+
+#textFavHero {
+  color: goldenrod;
+  text-align: none;
+  text-shadow: 2px 2px 5px red;
+}
+
+.text1{
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#C1
+,#C2
+,#C3
+,#C4
+,#C5{
+  color: orangered;
+}
+
+main{
+ background: rgb(116,255,208);
+background: linear-gradient(360deg, rgba(116,255,208,1) 0%, rgba(116,240,243,1) 100%);
+}
+
+header {
+  box-shadow: 4px 1px 2px 1px #0006;
+  background-color: darkcyan;
+  border: solid 1px;
+  border-color: blueviolet;
+}
+
+h1 {
+  zoom: 95%;
+  height: 90px;
+  width: 65%;
+  margin-left: 12px;
+}
+
+.nav {
+ text-align: center;
+ background-color: #00FFFF;
+ padding: 8px;
+ margin-top: px;
+ border: solid #008080 6px;
+ box-shadow: 2px 2px 4px 0px #1010106B;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1C1C1C;
+  display: inline-block;
+  width: 66px;
+  text-shdow: 1px 1px #1010106B;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #1010106B;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background-color: tomato;
+}
+
+.listaCompleta {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+.goldList
+,.midList
+,.roamerList
+,.junglerList
+,.sideList{
+  background: rgb(0,0,0);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(103,103,103,1) 100%);
+  border-radius: 1.5%;
+  overflow-x: scroll;
+}
+
+/*button {
+  border: none;
+  box-shadow: 0.25px 0.25px 0.5px 0.25px #FFFF;
+  background-color: black;
+  border-radius: 33%;
+}*/
+
+th {
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+.menu {
+  float: left;
+}
+
+.divBuild {
+  
+}
+
+.build {
+  max-width: 110px;
+}
+
+.icon {
+  height: 200%;
+  max-height: 280px;
+  max-width: 160px;
+  border-radius: 10%;
+  transition: 200ms;
+  max-block-size: 285px;
+}
+
+.icon:hover {
+  box-shadow: 0px 0px 0px 5px gold;
+  max-width: 300px;
+  transition: 900ms;
+}
+
+ul {
+  display: none;
+  list-style-type: none;
+  text-align: left;
+}
+
+fieldset {
+  margin-top: 35px;
+}
+
+legend {
+  color: rebeccapurple;
+}
+
+.refer {
+  margin-top: 40px;
+  color: gray;
+}
+::-webkit-scrollbar {
+	height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #fffa;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000a;
+	border-radius: 10px;
+}
